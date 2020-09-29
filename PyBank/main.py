@@ -1,10 +1,10 @@
 import os
 import csv
 
-file = csv.reader(open('budget_data.csv'), delimiter =',')
+file = csv.reader(open("Resources/budget_data.csv"), delimiter =',')
 
 #number of months
-budget = open("budget_data.csv")
+budget = open("Resources/budget_data.csv")
 reader = csv.reader(budget, delimiter = ",")
 months = len(list(reader)) - 1
 
