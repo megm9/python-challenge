@@ -35,6 +35,10 @@ Election_Results = print("Election Results:", '\n'
                         number, 
                         "Winner is:", winner)
 
-Election_Results 
+Election_Results
+
+file = open('Election.txt', 'w+')
+file.write("Election_Results")
+file.close()
 
 poll.close()

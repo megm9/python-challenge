@@ -54,4 +54,8 @@ financial_analysis = print("Financial Analysis:", '\n'
 
 financial_analysis
 
+file = open('financial.txt', 'w+')
+file.write("financial_analysis")
+file.close()
+
 budget.close()
